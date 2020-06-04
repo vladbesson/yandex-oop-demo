@@ -7,6 +7,7 @@
   <title>Todo List</title>
   <link rel="stylesheet" href="style/normalize.css" />
   <link rel="stylesheet" href="style/index.css" />
+  <script src="scripts/Api.js" defer></script>
   <script src="scripts/TodoList.js" defer></script>
   <script src="scripts/TodoListForm.js" defer></script>
   <script src="scripts/TodoListItem.js" defer></script>
@@ -43,6 +44,7 @@
   <template id="todolist-item-template" style="display: none;">
     <article class="todolist-item">
       <span class="todolist-item__text">Текст задачи</span>
+      <span class="todolist-item__id">id</span>
       <button class="todolist-item__copy"></button>
       <button class="todolist-item__del"></button>
     </article>
