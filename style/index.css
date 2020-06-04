@@ -69,6 +69,15 @@ h1 {
   flex-grow: 1;
 }
 
+.todolist-item__id {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  color: white;
+  flex-grow: 1;
+}
+
 .todolist-item__copy {
   width: 24px;
   height: 24px;
